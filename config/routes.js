@@ -36,6 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   }, '/user/singin': {
     controller:'UserController', action:'new'
+  },'/knowmore':{
+    view:'knowmore'
   }
 
   /***************************************************************************
