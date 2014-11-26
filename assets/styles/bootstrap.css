@@ -63,6 +63,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  color: #606cea;
 }
 mark {
   color: #000;
@@ -1002,7 +1003,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: #365DA0;
+  color: #606cea;
 }
 h1 small,
 h2 small,
@@ -1030,7 +1031,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #365DA0;
+  color: #606cea;
 }
 h1,
 .h1,
@@ -1040,6 +1041,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
+  color: #606cea;
 }
 h1 small,
 .h1 small,
@@ -1054,6 +1056,7 @@ h2 .small,
 h3 .small,
 .h3 .small {
   font-size: 65%;
+  color: #606cea;
 }
 h4,
 .h4,
@@ -1063,6 +1066,7 @@ h6,
 .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #606cea;
 }
 h4 small,
 .h4 small,
@@ -1077,19 +1081,23 @@ h5 .small,
 h6 .small,
 .h6 .small {
   font-size: 75%;
+  color: #606cea;
 }
 h1,
 .h1 {
   font-size: 36px;
+  color: #606cea;
   
 }
 h2,
 .h2 {
   font-size: 30px;
+  color: #606cea;
 }
 h3,
 .h3 {
   font-size: 24px;
+  color: #606cea;
 }
 h4,
 .h4 {
@@ -1112,10 +1120,17 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
+
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
   }
+}
+.pGrande {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 small,
 .small {
@@ -2797,7 +2812,28 @@ select[multiple].form-group-lg .form-control {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-image: none;
+  background-image: #606cea;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btnJumbo{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: #606cea;
+     -moz-user-select: #606cea;
+      -ms-user-select: #606cea;
+          user-select: #606cea;
+  background-image: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -2836,7 +2872,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: #606cea;
   border-color: #ccc;
 }
 .btn-default:hover,
@@ -4194,102 +4230,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
-.navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-.navbar-default .navbar-brand {
-  color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
-}
-.navbar-default .navbar-text {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
-}
-.navbar-default .navbar-nav > .disabled > a,
-.navbar-default .navbar-nav > .disabled > a:hover,
-.navbar-default .navbar-nav > .disabled > a:focus {
-  color: #ccc;
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ddd;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #e7e7e7;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
-    background-color: transparent;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #ccc;
-    background-color: transparent;
-  }
-}
-.navbar-default .navbar-link {
-  color: #777;
-}
-.navbar-default .navbar-link:hover {
-  color: #333;
-}
-.navbar-default .btn-link {
-  color: #777;
-}
-.navbar-default .btn-link:hover,
-.navbar-default .btn-link:focus {
-  color: #333;
-}
-.navbar-default .btn-link[disabled]:hover,
-fieldset[disabled] .navbar-default .btn-link:hover,
-.navbar-default .btn-link[disabled]:focus,
-fieldset[disabled] .navbar-default .btn-link:focus {
-  color: #ccc;
-}
+
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
@@ -4651,7 +4592,7 @@ a.list-group-item.active > .badge,
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #606cea;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4661,6 +4602,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  color: #fff;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;

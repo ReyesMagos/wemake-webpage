@@ -60,10 +60,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <img alt="" src="/images/logo.png" WIDTH=1000 HEIGHT=300/>
-                        <p>
-                        <em>Wemake </em>es una <strong>Plataforma</strong> que pretende <strong>reconocer, validar y estimular</strong> iniciativas que construyan una ciudad más resiliente a través de la articulación de los diferentes actores sociales, tales como <strong>ciudadanos, colectivos e instituciones (Publicas, privadas y mixtas)</strong>.
+                        <br/><br/>
+                        <p class="lead">
+                        <em>Wemake </em>es una <strong>plataforma</strong> que pretende <strong>reconocer, validar y estimular</strong> iniciativas que construyan una ciudad más resiliente a través de la articulación de los diferentes actores sociales, tales como <strong>ciudadanos, colectivos e instituciones (Publicas, privadas y mixtas)</strong>.
                         </p></br>
-                        <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                        <a href="#about"><img src="../images/navigate.png" WIDTH=50 HEIGHT=50/></a>
                     </div>
                 </div>
             </div>
@@ -71,12 +72,13 @@
         <!-- About Section -->
         <section id="about" class="about-section">
             <div class="container">
+                    
                 <table style="width:100%">
                     <tr>
                         <td><img src="/images/crowd.png" class="img-circle" width="500" height="250" /></td>
-                        <td><h2>
+                        <td><h1>
                             Propuesta de Valor
-                            </h2>
+                            </h1>
                             <ul >
                                 <li><p class="lead">Canal de comunicación</p>
                                 </li>
@@ -95,7 +97,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <h2 >Propositos</h2>
+                                <h1 >Propositos</h1>
                                 
                                 <p class="lead">
                                 <ul>
@@ -107,7 +109,7 @@
                                 </p>
                             </td>
                             <td>
-                                <h2 >Actores</h2>
+                                <h1 >Actores</h1>
                                 <ul>
                                     <li><p class="lead">Ciudadanía</p></li>
                                     <li><p class="lead">Colectivos</p></li>
@@ -117,60 +119,134 @@
                             
                         </tr>
                         
-                    </table>                    
+                    </table>
                 </div>
             </section>
-
-
             <!-- Services Section -->
             <section id="services" class="services-section">
                 <div class="container">
-                    
+                    <strong><h1>Conoce Más</h1></strong><br/>
+                    <div class="jumbotron">
                     <div class="row clearfix">
-        <div class="col-md-4 column">
-            <form action="/user/create/" method="POST" role="form">
-                
-                <div class="form-group">
-                    <label for="name">Nombre</label><input name="name" type="text" class="form-control" id="name" />
-                    <label for="lastname">Apellido</label><input name="lastname" type="text" class="form-control" id="lastname" />
-                </div>
-                <div class="form-group">
-                    <label for="age">Edad</label><input name="age" type="number" class="form-control" id="age" />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label><input name="email" type="email" class="form-control" id="email" />
-                </div>
-                <div class="form-group">
-                    <label for="city">Ciudad</label><input name="city" type="text" class="form-control" id="city" />
-                </div>
-                <div class="form-group">
-                    <label for="neighbor">Barrio</label><input name="neighbor" type="text" class="form-control" id="neighbor" />
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telefono</label><input name="phone" type="number" class="form-control" id="phone" />
-                </div>
-                <input type="submit" class="btn btn-default"value="log in"/>
-            </form>
-        </div>
-    </div>
-                </div>
-            </section>
-            <!-- Contact Section -->
-            <section id="contact" class="contact-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1>Contact Section</h1>
+
+                        <div class="col-md-10 col-md-offset-1">
+                        
+                            <form action="/user/create/" method="POST" role="form">
+                               <!-- 
+                                <div class="form-group">
+                                    <label for="name">Nombre</label><input name="name" type="text" class="form-control" id="name" />
+                                    <label for="lastname">Apellido</label><input name="lastname" type="text" class="form-control" id="lastname" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="age">Edad</label><input name="age" type="number" class="form-control" id="age" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label><input name="email" type="email" class="form-control" id="email" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">Ciudad</label><input name="city" type="text" class="form-control" id="city" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="neighbor">Barrio</label><input name="neighbor" type="text" class="form-control" id="neighbor" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefono</label><input name="phone" type="number" class="form-control" id="phone" />
+                                </div>
+                                -->
+                                
+                                <table border="0"  align="center" width="100%" style="table-layout: fixed; word-wrap: break-word" >
+                                    <tr>
+                                        <td width= "30">
+                                            <p>Nombre </p>
+                                        </td>
+                                        <td width= "120">
+                                            <input type="text" class="form-control" id="name" name="name" /><p></p>
+                                        </td>
+                                        <td width= "5"></td>
+                                        <td width= "30">
+                                            <p> Apellido </p>
+                                        </td>
+                                        <td width= "120">
+                                            <input type="text" class="form-control" id="lastname" name="lastname" /><p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width= "20">
+                                            <p>Edad </p>
+                                        </td>
+                                        <td width= "120">
+                                            <input name="age" type="number" class="form-control" id="age" />                            </td>
+                                            <td width= "5"></td>
+                                            <td width= "20">
+                                                <p>Email </p>
+                                            </td>
+                                            <td width= "120">
+                                                <input type="email" class="form-control" id="email" name="email" /><p></p>
+                                            </td>
+                                            
+                                            
+                                        </tr>
+                                        
+                                        <tr>
+
+                                        <td width= "20">
+                                                <p>Ciudad </p>
+                                            </td>
+                                            <td width= "120">
+                                                <input type="text" class="form-control" id="city" name="city"/> <p></p>
+                                            </td>
+                                            
+                                            <td width= "5"></td>
+                                            <td width= "20">
+                                                <p>Barrio </p>
+                                            </td>
+                                            <td width= "120">
+                                                <input type="number" class="form-control" id="mobile" name="mobile" /><p></p>
+                                            </td>
+                                            
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td width= "20">
+                                                <p>Teléfono </p>
+                                            </td>
+                                            <td width= "120">
+                                                <input type="number" class="form-control" id="phone" name="phone" /><p></p>
+                                            </td>
+                                            <tr>
+                                                
+                                            </tr>
+                                        </tr>
+                                        
+                                        
+                                    </table>
+                                    <button type="submit" class="btnJumbo  pull-right" >Enviar</button>
+                                </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- jQuery -->
-            <script src="js/jquery.js"></script>
-            <!-- Bootstrap Core JavaScript -->
-            <script src="js/bootstrap.min.js"></script>
-            <!-- Scrolling Nav JavaScript -->
-            <script src="js/jquery.easing.min.js"></script>
-            <script src="js/scrolling-nav.js"></script>
-        </body>
-    </html>
+                </section>
+                <!-- Contact Section -->
+                <section id="contact" class="contact-section">
+                    <div class="container">
+                        
+                            
+                            <p><h1><strong>Reyes Magos Soft </strong></h1></p>
+                            <p><h2>Nosotros hacemos aplicaciones, Tú las disfrutas<h2></p>
+                            <p><h2>Correo: <a href="mailto:reyesmagossoft.co@gmail.com">reyesmagossoft.co@gmail.com</a></h2></p>
+                            <p><h2>Visita nuestro sitio <a href="http://reyesmagossoft.tk/">http://reyesmagossoft.tk/</a></h2></p>
+
+                            
+                        
+                    </div>
+                </section>
+                <!-- jQuery -->
+                <script src="js/jquery.js"></script>
+                <!-- Bootstrap Core JavaScript -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- Scrolling Nav JavaScript -->
+                <script src="js/jquery.easing.min.js"></script>
+                <script src="js/scrolling-nav.js"></script>
+            </body>
+        </html>
